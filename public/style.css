@@ -4,9 +4,59 @@ height: 100%;
 overflow: hidden;
 text-align: center;
 }
+
+p{
+  color: white;
+}
+
+.previous , .next{
+  height: 50px;
+  width: 50px;
+  margin: 200px;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px white;
+  color: #333;
+}
+.previous:hover , .next:hover {
+  background: #FFF07C;
+}
+
+.logo{
+  width: 50px;
+  margin-left: 90%;
+}
+
+.info{
+  color: #FFF07C;
+  font-weight: bold;
+}
+.question{
+  color: #19f6e8;
+  font-size: 22px;
+}
+
+label {
+display: inline;
+padding-left: 15px;
+text-indent: -15px; }
+input {
+width: 13px;
+height: 13px;
+padding: 0;
+margin:5px;
+vertical-align: bottom;
+position: relative;
+top: -1px;
+*overflow: hidden;
+}
+
+.next{
+
+}
+
 button{
 height: 60px;
-margin: 0 auto;
+margin-top: 50px;
 position: relative;
 top: 50%;
 transform: translateY(-50%);
