@@ -9,6 +9,10 @@ p{
   color: white;
 }
 
+.slogan{
+  color: #FFF07C;
+}
+
 .previous , .next{
   height: 50px;
   width: 50px;
