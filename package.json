@@ -1,0 +1,21 @@
+{
+  "name": "khotowat",
+  "version": "1.0.0",
+  "description": "#### Goals",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FACN1/Khotowat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FACN1/Khotowat/issues"
+  },
+  "homepage": "https://github.com/FACN1/Khotowat#readme"
+}
