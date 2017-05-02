@@ -1,5 +1,5 @@
 const express = require('express')
-const path = require('path')
+const path = require('path')  
 const exphbs = require('express-handlebars')
 const router = require('./router.js')
 
@@ -7,7 +7,7 @@ const app = express()
 
 app.engine('hbs', exphbs({
   defaultLayout: 'default',
-  // layoutsDir: path.join(__dirname, "views", "layouts"),
+  layoutsDir: path.join(__dirname, "views", "layouts"),
   extname: 'hbs'
 }))
 
