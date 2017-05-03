@@ -1,4 +1,5 @@
 module.exports = (req, res, next) => {
-  res.render('home', { title: ' خطوات ' });
+  res.render('home', { title: 'معلومات حول خطوات' });
 
+  
 }
