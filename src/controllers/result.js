@@ -1,3 +1,3 @@
-module.exports = (req, res) => {
-  res.render('result')
+module.exports = (req, res, next) => {
+  res.render('result', { title : 'إنهاء'})
 }
