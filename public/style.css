@@ -67,6 +67,24 @@ section {
 p {
 	margin-bottom: 45px;
 	padding: 5px;
+=======
+/*custom style*/
+
+h2 {
+	font-size: 1.8em;
+	font-weight: bold;
+	text-decoration: overline;
+	background-color: blue;
+	display: inline-block;
+	letter-spacing: 0.1em;
+	border: solid 1em yellow;
+	margin-left: 5em;
+	color: green;
+}
+
+.header-partial {
+  margin-left: 80%;
+  padding: 10px;
 }
 
 .startBtn {
