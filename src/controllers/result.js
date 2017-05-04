@@ -1,3 +1,3 @@
 module.exports = (req, res, next) => {
-  res.render('result', { title : 'إنهاء'})
+  res.render('result', { title : 'نتائج الاختبار '})
 }
