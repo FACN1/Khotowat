@@ -1,6 +1,6 @@
 var khotowat = (function () {
 
-  var getQuestions = (callback) => {
+  function getQuestions(callback) {
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {
       if (xhr.readeState === 4 && xhr.status === 200) {
@@ -15,7 +15,7 @@ var khotowat = (function () {
     xhr.send();
   }
 
-  var renderQpage = (error, questionPageArr) => {
+  function renderQpage(error, questionPageArr) {
 
   }
 });
