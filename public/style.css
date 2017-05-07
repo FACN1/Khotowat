@@ -52,7 +52,10 @@ table {
 	width: auto;
 	margin-bottom: 15px;
 	height: 80px;
-	background: rgba(0, 0, 0, 0.3);
+	background: #508991;
+	color: #E0CA3C;
+	font-family: 'Lalezar', cursive;
+
 }
 
 img {
@@ -67,4 +70,27 @@ section {
 p {
 	margin-bottom: 45px;
 	padding: 5px;
+	font-family: 'El Messiri', sans-serif;
+
+}
+
+#start:hover {
+	background: #508991;
+	color: white;
+}
+
+.question {
+	font-weight: bold;
+	font-family: 'El Messiri', sans-serif;
+}
+
+.information {
+	color: #E0CA3C;
+	font-size: 20px;
+	font-family: 'El Messiri', sans-serif;
+}
+
+.result{
+	text-align: center;
+	font-family: 'Lalezar', cursive;
 }
