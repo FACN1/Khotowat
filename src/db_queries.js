@@ -10,7 +10,7 @@ const getQuestions = (callback) => {
 }
 
 const getAnswers = (callback) => {
-  connPool.query('SELECOT * FROM answers', (error, result) => {
+  connPool.query('SELECT * FROM answers', (error, result) => {
   if (error) {
     return callback(error);
   }
