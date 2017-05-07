@@ -4,6 +4,7 @@
   "description": "#### Goals",
   "main": "index.js",
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "env2": "^2.1.1",
     "express": "^4.15.2",
     "pg": "^6.1.5"
