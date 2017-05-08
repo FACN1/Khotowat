@@ -19,8 +19,8 @@ app.set('view engine', 'hbs')
 app.set('views', path.join(__dirname, 'views'));
 
 app.use(router);
-
 app.use(express.static(path.join(__dirname, '..','public')));
+
 
 // set up handlebars
 
