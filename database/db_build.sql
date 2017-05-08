@@ -1,6 +1,6 @@
 BEGIN;
 
-DROP TABLE IF EXISTS questions;
+DROP TABLE IF EXISTS questions, answers CASCADE;
 
 CREATE TABLE questions (
   id SERIAL PRIMARY KEY,

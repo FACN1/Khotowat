@@ -5,6 +5,9 @@ const router = require('./router.js')
 
 const app = express()
 
+app.set('port', process.env.PORT || 3000);
+
+
 app.engine('hbs', exphbs({
   defaultLayout: 'default',
   layoutsDir: path.join(__dirname, 'views', 'layouts'),
