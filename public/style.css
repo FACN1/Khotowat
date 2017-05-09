@@ -74,9 +74,14 @@ p {
 	text-align: right;
 }
 
+#start {
+	box-shadow: 8px 4px 9px;
+	font-weight: bold;
+}
+
 #start:hover {
 	background: #508991;
-	color: white;
+	font-size: 180%;
 }
 
 .question {
@@ -97,4 +102,13 @@ p {
 .result{
 	text-align: center;
 	font-family: 'Lalezar', cursive;
+}
+
+.howToChoseMajor {
+	text-align: right;
+	font-family: 'Lalezar', cursive;
+}
+
+.send:hover {
+	background: #508991;
 }
