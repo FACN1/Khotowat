@@ -2,10 +2,81 @@
 
     <h1 class="result panel panel-success"> نتائج الاختبار </h1>
 
-    <div class="result list-group">
-      <h3><a href="#" class="list-group-item"> التخصص 1 </a></h3>
-      <h3><a href="#" class="list-group-item"> التخصص 2 </a></h3>
-      <h3><a href="#" class="list-group-item"> التخصص3 </a></h3>
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingOne">
+        <h4 class="panel-title">
+          <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            الهندسة
+          </a>
+        </h4>
+      </div>
+      <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+        <div class="panel-body">
+          تُعتبر الهندسة من أكثر التّخصّصات طلباً في الجامعات في كافّة أنحاء العالم؛ فهي دراسة مشوّقة وممتعة ومتنوّعة حيث تفرّعت إلى 43 تخصّصاً تحت الهندسة المدنيّة، والهندسة الميكانيكيّة، وهندسة الكهرباء، والهندسة الكيماويّة، وهندسة العمارة، وهندسة المناجم والتّعدين. لكن وفق الدّراسات والإحصائيّات فإنّ هناك بعض التخصّصات الهندسيّة مطلوبة بشكل كبير سوف نتطرّق إليها.
+          <a class="btn btn-link" href="http://mawdoo3.com/%D8%A3%D9%81%D8%B6%D9%84_%D8%AA%D8%AE%D8%B5%D8%B5%D8%A7%D8%AA_%D8%A7%D9%84%D9%87%D9%86%D8%AF%D8%B3%D8%A9" role="button">Link</a>
+        </div>
+      </div>
     </div>
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingTwo">
+        <h4 class="panel-title">
+          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            الطبّ
+          </a>
+        </h4>
+      </div>
+      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+        <div class="panel-body">
+          الطب هو علم تطبيقي يقوم على الدراسات العلمية المستنتجة والموثقة من بعض التجارب، وهو عبارة عن فن العلاج للإنسان أو الحيوان، سواءً العلاج بالدواء أو العلاج الجراحي، وهو يعتمد على البراهين والأدلة ولا يُمكن تشخيص أي مرض بدونها، وينقسم الطب الحديث إلى مجموعة من التخصصات الطبية المختلفة مثل طب الأسنان، وطب أمراض الدم، وطب النساء والتوليد، وطب العيون، وطب الجراحة، وطب الأورام، والطب النفسي والطب البديل وغيرها الكثير من التخصصات.
+          <a class="btn btn-link" href="http://mawdoo3.com/%D8%A3%D9%81%D8%B6%D9%84_%D8%AA%D8%AE%D8%B5%D8%B5%D8%A7%D8%AA_%D8%A7%D9%84%D8%B7%D8%A8" role="button">Link</a>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingThree">
+        <h4 class="panel-title">
+          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            ادارة الاعمال
+          </a>
+        </h4>
+      </div>
+      <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+        <div class="panel-body">
+          إنشاء الأعمال الخاصة وتحويل الأفكار إلى مشاريع تنفذ بحرفية على أرض الواقع ليس بالأمر السهل، إذ تتطلب هذه العملية تواجد الفكرة التي يؤمن بها الشخص، كما تتطلب وجود عدد من العناصر منها عنصر الموارد المالية والموارد البشرية المؤهلة وغيرها من العناصر التي تختلف باختلاف المشاريع المراد إنشاؤها.
+          <a class="btn btn-link" href="http://mawdoo3.com/%D9%85%D8%A7_%D9%87%D9%88_%D8%AA%D8%AE%D8%B5%D8%B5_%D8%A7%D8%AF%D8%A7%D8%B1%D8%A9_%D8%A7%D9%84%D8%A7%D8%B9%D9%85%D8%A7%D9%84" role="button">Link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sendModal" data-whatever="email"> ارسال الى حسابك الشخصي </button>
+
+  <div class="modal fade" id="sendModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="exampleModalLabel">ارسل النتائج الى حسابك الاكتروني</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="recipient-name" class="control-label">بريدك الالكتروني</label>
+              <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+              <label for="message-text" class="control-label"> النتائج </label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">X </button>
+          <button type="button" class="btn btn-primary"> ارسال </button>
+        </div>
+      </div>
+    </div>
+</div>
 
 </body>
