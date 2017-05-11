@@ -61,6 +61,14 @@ table {
 img {
 	width: 50px;
 	margin-left: 85%;
+	margin-top: -45px;
+	position: absolute;
+}
+
+.slogon {
+	margin-left: 220px;
+	margin-top: 15px;
+	position: relative;
 }
 
 section {
